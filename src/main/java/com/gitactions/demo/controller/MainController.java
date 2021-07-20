@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MainController {
     
-    @GetMapping(path = "/") 
+    @GetMapping("/") 
     public String getInfo() {
         return "Welcome to Spring Agular demo";
     }
